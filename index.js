@@ -69,6 +69,9 @@ function sayNo() {
     fontSize = fontSize + 0.5;
     yes.style.fontSize = `${fontSize}rem`;
     yes.style.marginRight = '20px';
+
+    // Send a WhatsApp message when "No" is clicked
+    window.open(`https://wa.me/01315667373?text=I%20don't%20love%20you!`, '_blank');
 }
 
 // Function that runs when "Yes" button is clicked
@@ -85,11 +88,4 @@ function sayYes() {
         let random = Math.floor(Math.random() * 3);
         secondImg.src = yesImages[random];
     }, 800);
-}
-
-// Function to send an email when "No" is clicked
-function sendEmail() {
-    const subject = encodeURIComponent("Response to 'Do You ❤ Me'");
-    const body = encodeURIComponent("I don't love you.");
-    window.open(`mailto:mdtanvircse572@gmail.com?subject=${subject}&body=${body}`, '_blank');
 }
