@@ -71,7 +71,7 @@ function sayNo() {
     yes.style.marginRight = '20px';
 
     // Send a WhatsApp message when "No" is clicked
-    window.open(`https://wa.me/01315667373?text=I%20don't%20love%20you!`, '_blank');
+    window.open(`https://wa.me/+8801315667373?text=I%20don't%20love%20you!`, '_blank');
 }
 
 // Function that runs when "Yes" button is clicked
