@@ -81,7 +81,7 @@ function sayYes() {
     sayYesContainer.style.display = 'flex'; // Show the Yes container
 
     // Send a WhatsApp message when "Yes" is clicked
-    window.open(`https://wa.me/01315667373?text=I%20love%20you!`, '_blank');
+    window.open(`https://wa.me/+8801315667373?text=I%20love%20you!`, '_blank');
 
     // Randomly change the image in the "Yes" container every 800ms
     setInterval(() => {
